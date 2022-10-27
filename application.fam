@@ -1,0 +1,10 @@
+App(
+    appid="pokemon",
+    name="Pokemon",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="pokemon_main",
+    requires=["gui"],
+    stack_size=1 * 1024,
+    fap_category="Game",
+    fap_icon_assets="images",
+)
